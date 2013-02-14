@@ -31,7 +31,6 @@ contar = 0
 letra = ar[0]
 conteo = []
 i=0
-j=0
 while i<len(ar):
     if letra == ar[i]:
         contar=contar+1
@@ -40,7 +39,6 @@ while i<len(ar):
         letra=ar[i]
         contar=0
         i=i-1
-        j=j+1
     i=i+1
 
 conteo.append([contar,letra])
